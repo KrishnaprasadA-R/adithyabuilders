@@ -1,0 +1,166 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 2px solid #d4af37; /* Gold color from Confident Group */
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 15px;
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #b98b4a; /* Lighter gold color for hover */
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/hero.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+.hero .btn-light {
+  background-color: #d4af37; /* Gold color from Confident Group */
+  border-color: #d4af37;
+  color: #ffffff;
+}
+
+.hero .btn-light:hover {
+  background-color: #b98b4a; /* Lighter gold color for hover */
+  border-color: #b98b4a;
+}
+
+/* Sections */
+section {
+  padding: 60px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.py-5 {
+  padding: 3rem 0;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.bg-primary {
+  background-color: #d4af37; /* Gold color from Confident Group */
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Services Section */
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+  border-bottom: 2px solid #d4af37; /* Gold color from Confident Group */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+/* Contact Us Form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #d4af37; /* Gold color from Confident Group */
+  border-color: #d4af37;
+}
+
+.btn-primary:hover {
+  background-color: #b98b4a; /* Lighter gold color for hover */
+  border-color: #b98b4a;
+}
+
+/* Footer */
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .card-img-top {
+    height: 180px;
+  }
+
+  .btn-light {
+    padding: 8px 16px;
+  }
+}
+
